@@ -91,5 +91,6 @@
                 if-layers = <1 2>;
                 then-layers = <3>;
             };
+        };
     };
 };
