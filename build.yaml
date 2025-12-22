@@ -22,9 +22,14 @@ include:
   - board: nice_nano_v2
     shield: lily58_left nice_view_adapter nice_view_gem
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SLEEP=y 
+      -DCONFIG_ZMK_IDLE_TIMEOUT=60000
   - board: nice_nano_v2
     shield: lily58_right nice_view_adapter nice_view_gem
     cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
+#  - board: nice_nano_v2
+#    shield: settings_reset
   - board: nice_nano_v2
-    shield: settings_reset
+    shield: corne_left
+  - board: nice_nano_v2
+    shield: corne_right
