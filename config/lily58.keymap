@@ -58,7 +58,7 @@
 &trans      &trans        &trans             &trans             &trans            &trans                                    &trans          &trans    &trans  &trans     &trans  &trans
 &trans      &trans        &trans             &trans             &trans            &trans                                    &kp LEFT        &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
 &trans      &trans        &ext_power EP_TOG  &ext_power EP_OFF  &ext_power EP_ON  &trans        &kp BACKSLASH     &kp PIPE  &trans          &trans    &trans  &kp GRAVE  &trans  &trans
-                                             &trans             &trans            &trans        &escaped_space    &trans    &trans          &trans    &trans
+                                             &trans             &trans            &trans        &escaped_space    &trans    &kp DEL         &trans    &trans
             >;
         };
 
